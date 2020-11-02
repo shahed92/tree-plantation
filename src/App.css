@@ -1,38 +1,183 @@
-.App {
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+/* css variables */
+:root {
+  --primary-color: #6abf1f;
+  --Text-color: #000;
+  --Text-color-light: #fff;
+  --Drop-hover: #4f4f4f;
+  --f-f: 'Roboto Condensed', sans-serif;
+}
+/* common class */
+.g {
+  color: var(--primary-color);
+}
+/* global css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul li {
+  list-style: none;
+}
+
+body {
+  font-family: var(--f-f) !important;
+}
+.active {
+  background-color: var(--primary-color);
+  color: var(--Text-color-light) !important;
+}
+section {
+  margin-top: 5rem;
+}
+img {
+  width: 100%;
+}
+
+/* common component */
+.commonTitle {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 600;
+}
+
+/* navbar custom css */
+.navbar {
+  text-transform: uppercase;
+  padding: 0 1rem !important;
+  box-shadow: none !important;
+  z-index: 1;
+}
+.navbar-light .navbar-brand {
+  color: var(--Text-color-light) !important;
+}
+.navbar.navbar-light .navbar-toggler-icon {
+  background-color: var(--Text-color-light);
+}
+.navbar-nav {
+  background-color: var(--Text-color-light);
+  line-height: 27px;
+}
+.nav-link {
+  color: var(--Text-color);
+  font-weight: 700;
+  font-size: 16px;
+}
+.nav-link .active {
+  color: var(--Text-color-light) !important;
+}
+.nav-link:hover {
+  background-color: var(--primary-color);
+  color: var(--Text-color-light) !important;
+}
+.dropdown-menu {
+  margin: 0 !important;
+  background-color: var(--primary-color) !important;
+
+  border: none;
+  line-height: 10px;
+}
+.dropdown-item {
+  color: var(--Text-color-light) !important;
+
+  font-weight: 800 !important;
+}
+.dropdown-item:hover {
+  background-color: var(--Drop-hover) !important;
+}
+.dropdown-item.active {
+  background-color: var(--primary-color) !important;
+}
+
+/* end of navbar custom css */
+
+/* home custom css */
+
+.home-header {
+  background-image: url(./component/images/homeheader.jpg);
+  /* width: 100vw; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 90vh;
+  text-align: center;
+  color: var(--Text-color-light);
+
+  margin-top: -44px;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.home-header .btn.btn-lg {
+  background-color: var(--Text-color-light) !important;
+  color: var(--Text-color);
+}
+.home-header > div {
+  z-index: 1;
+}
+.home-header::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+
+  background-color: var(--Text-color);
+  opacity: 0.5;
+}
+
+/* end of home custom css */
+/* tree removal */
+
+.tree-removal .col-md-9,
+.tree-removal .col-md-3 {
+  box-shadow: 0px 0px 1px 0px;
+  background-color: var(--Text-color-light);
+  margin-top: -20px;
+}
+.tree-removal .col-md-9 {
+  padding: 4rem;
+}
+.tree-removal .col-md-9 h1 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*  aside */
+aside {
+  text-align: center;
+  text-transform: capitalize;
+  padding: 15px 0px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.aside-social {
+  font-size: 2.8rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.aside-social a {
+  color: var(--primary-color);
 }
-
-.App-link {
-  color: #61dafb;
+.aside-social a:hover {
+  color: #3383ef;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.aside-social a:nth-child(3):hover,
+.aside-social a:nth-child(2):hover {
+  color: red;
+}
+aside ul li {
+  text-align: left;
+  padding-left: 10px;
+}
+aside ul li a {
+  color: var(--primary-color);
+}
+aside ul li a:hover {
+  color: var(--Drop-hover);
 }
