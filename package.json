@@ -2,7 +2,7 @@
   "name": "tree-reactjs",
   "version": "0.1.0",
   "private": true,
-    "homepage":"http://shahed92.hithub.io/tree-plantation",
+    "homepage":"http://shahed92.github.io/tree-plantation",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
