@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/tree-plantation/static/css/main.5458a3fd.chunk.css",
+    "main.js": "/tree-plantation/static/js/main.1b0b84f6.chunk.js",
+    "main.js.map": "/tree-plantation/static/js/main.1b0b84f6.chunk.js.map",
+    "runtime-main.js": "/tree-plantation/static/js/runtime-main.0f16dc9c.js",
+    "runtime-main.js.map": "/tree-plantation/static/js/runtime-main.0f16dc9c.js.map",
+    "static/css/2.c4ea1f8a.chunk.css": "/tree-plantation/static/css/2.c4ea1f8a.chunk.css",
+    "static/js/2.e839a130.chunk.js": "/tree-plantation/static/js/2.e839a130.chunk.js",
+    "static/js/2.e839a130.chunk.js.map": "/tree-plantation/static/js/2.e839a130.chunk.js.map",
+    "index.html": "/tree-plantation/index.html",
+    "static/css/2.c4ea1f8a.chunk.css.map": "/tree-plantation/static/css/2.c4ea1f8a.chunk.css.map",
+    "static/css/main.5458a3fd.chunk.css.map": "/tree-plantation/static/css/main.5458a3fd.chunk.css.map",
+    "static/js/2.e839a130.chunk.js.LICENSE.txt": "/tree-plantation/static/js/2.e839a130.chunk.js.LICENSE.txt",
+    "static/media/mdb.min.css": "/tree-plantation/static/media/arrow_right.f7c6ac6d.svg",
+    "static/media/card1.9d60fc2f.jpg": "/tree-plantation/static/media/card1.9d60fc2f.jpg",
+    "static/media/card2.28cf01c0.jpg": "/tree-plantation/static/media/card2.28cf01c0.jpg",
+    "static/media/card3.1f899185.jpg": "/tree-plantation/static/media/card3.1f899185.jpg",
+    "static/media/commonHeader.0be7d3bc.jpg": "/tree-plantation/static/media/commonHeader.0be7d3bc.jpg",
+    "static/media/emergency1.24872b57.png": "/tree-plantation/static/media/emergency1.24872b57.png",
+    "static/media/emergency2.aa2c7c31.jpg": "/tree-plantation/static/media/emergency2.aa2c7c31.jpg",
+    "static/media/emergency3.8df2dd58.jpg": "/tree-plantation/static/media/emergency3.8df2dd58.jpg",
+    "static/media/emergency4.91124ab3.jpg": "/tree-plantation/static/media/emergency4.91124ab3.jpg",
+    "static/media/App.css": "/tree-plantation/static/media/homeheader.ed0cacb2.jpg",
+    "static/media/planting.3ace278c.png": "/tree-plantation/static/media/planting.3ace278c.png",
+    "static/media/tree-cutting.8a3f7c5a.jpg": "/tree-plantation/static/media/tree-cutting.8a3f7c5a.jpg",
+    "static/media/tree-cutting2.1bf22fbb.jpg": "/tree-plantation/static/media/tree-cutting2.1bf22fbb.jpg",
+    "static/media/tree-pruning-queens.9d60fc2f.jpg": "/tree-plantation/static/media/tree-pruning-queens.9d60fc2f.jpg",
+    "static/media/tree-removal-queens1.7e32b042.jpg": "/tree-plantation/static/media/tree-removal-queens1.7e32b042.jpg",
+    "static/media/treeRemoval1.3538b1de.jpg": "/tree-plantation/static/media/treeRemoval1.3538b1de.jpg",
+    "static/media/treeRemoval2.73e22a41.jpg": "/tree-plantation/static/media/treeRemoval2.73e22a41.jpg",
+    "static/media/treeRemoval3.8b530c1c.jpg": "/tree-plantation/static/media/treeRemoval3.8b530c1c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0f16dc9c.js",
+    "static/css/2.c4ea1f8a.chunk.css",
+    "static/js/2.e839a130.chunk.js",
+    "static/css/main.5458a3fd.chunk.css",
+    "static/js/main.1b0b84f6.chunk.js"
+  ]
+}
