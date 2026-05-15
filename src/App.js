@@ -30,6 +30,7 @@ function App() {
           <Route  component={TreeServics} />
           <Route component={Notfound} />
         </Switch>
+     <Home />
         <Footer />
       </Router>
     </>
